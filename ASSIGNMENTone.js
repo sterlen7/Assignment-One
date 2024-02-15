@@ -242,13 +242,30 @@ console.log(parseInt(abNumb));
 
 const age = ''
 
+//28 number to 5 
 const fNumber = 5
 
 for (i = 1; i <= fNumber; i++) {
     console.log(i)
 }
 
-// 30
+// 29 combination of logical operator && and ||
+function userValidation(age, email, password) {
+
+    const newUserValid = age && email && password
+    if (userValidation = age && email && password) {
+        return 'Welcome Back'
+    } else if (userValidation !== age || email || password) {
+        return 'Incorrect details'
+    }
+}
+//example
+const userSterlen = userValidation(21, true, false)
+console.log(userSterlen)
+
+
+
+
 
 
 
