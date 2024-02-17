@@ -226,7 +226,11 @@ console.log(`the largest number is`, maximumNumber)
 //24Logical operators
 
 //25 celsius to fahrenheit
-
+function celsiusToFahrenheit(celsius) {
+    return celsius * (9 / 5) + 32;
+}
+const celciustoFar = celsiusToFahrenheit(300)
+console.log(`The temperature in fahrenheit is ${celciustoFar}F `)
 // const tempCelsius = tempFahrenheit - 273
 
 // example
